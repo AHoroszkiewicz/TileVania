@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
+
         if (value.isPressed)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);

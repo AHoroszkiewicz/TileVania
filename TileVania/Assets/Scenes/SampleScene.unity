@@ -381,7 +381,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -13205,7 +13205,7 @@ TilemapRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -13751,7 +13751,7 @@ TilemapRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -17976,6 +17976,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7283661272591377609, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -17983,6 +17995,10 @@ PrefabInstance:
     - target: {fileID: 7283661273477770632, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
       propertyPath: jumpSpeed
       value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283661273477770632, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
+      propertyPath: deathColor.rgba
+      value: 4282795590
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}

@@ -18015,6 +18015,11 @@ MonoBehaviour:
     m_ParentHash: 756556552
   - m_Hash: -725336713
     m_ParentHash: 756556552
+--- !u!4 &2049557595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 945413724862243140, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
+  m_PrefabInstance: {fileID: 7283661273477770623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2074846871
 GameObject:
   m_ObjectHideFlags: 0
@@ -18032,7 +18037,7 @@ GameObject:
   - component: {fileID: 2074846878}
   m_Layer: 11
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18294,10 +18299,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7215379645282417576, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 86aaaa824b249554280069e445f4ddad, type: 2}
     - target: {fileID: 7283661272591377606, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18342,30 +18343,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283661272591377608, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7283661272591377609, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7283661273477770632, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: jumpSpeed
-      value: 26
-      objectReference: {fileID: 0}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 2049557595}
     - target: {fileID: 7283661273477770632, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
-      propertyPath: deathColor.rgba
-      value: 4282795590
-      objectReference: {fileID: 0}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 5382174677004304006, guid: 09f4cefc871e81a48b0a71915d9b3b0a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6be22295b9862fe4e801967284ddf90e, type: 3}
 --- !u!95 &7283661273477770630 stripped

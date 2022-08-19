@@ -116,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetTrigger("Death");
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
             spriteRenderer.color = deathColor;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
 
     }
